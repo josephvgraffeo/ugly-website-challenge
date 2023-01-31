@@ -1,0 +1,48 @@
+img {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    border: 5px rgb(255, 0, 195) solid;
+    box-shadow: 1px 1px 25px 17px rgba(255, 242, 0, 0.767);
+    aspect-ratio: 1/1;
+}
+
+img.img1 {
+    filter: saturate(1000%);
+}
+img.img1:hover {
+    filter: saturate(10000%);
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+img.img2 {
+    filter: saturate(1000%);
+}
+img.img2:hover {
+    filter: saturate(10000%);
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+img.img3 {
+    filter: saturate(1000%);
+}
+img.img3:hover {
+    filter: saturate(10000%);
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+img.img4 {
+    filter: saturate(1000%);
+}
+img.img4:hover {
+    filter: saturate(10000%);
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
